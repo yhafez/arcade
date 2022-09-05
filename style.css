@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: black;
+}
+.games{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    color: white;
+}
+
+.title-main {
+    text-align: center;
+    margin: 6vh 30vw;
+    font-size: 3rem;
+    background-color: red;
+    border: 8px gold dotted;
+    border-radius: 2%;
+    font-family: 'Ultra', serif;
+    box-shadow: 0 0 20px yellow;
+    color: goldenrod;
+    text-shadow: 0 0 4px black;
+    letter-spacing: 0.5rem;
+}
+
+hr {
+    color: white;
+}
+
